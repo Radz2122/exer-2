@@ -11,7 +11,7 @@
  *
  * @package exer-2
  */
-
+/* ici la page qui est afficher par defaut   */
 get_header();
 ?>
 
