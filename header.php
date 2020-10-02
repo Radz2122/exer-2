@@ -26,6 +26,7 @@
 	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'exer-2' ); ?></a>
 
 	<header id="masthead" class="site-header">
+	<div>Header du site</div>
 		<div class="site-branding">
 			<?php
 			the_custom_logo();
@@ -46,7 +47,7 @@
 		</div><!-- .site-branding -->
 
 		<nav id="site-navigation" class="main-navigation">
-			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'exer-2' ); ?></button>
+			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Menu principale ex-2', 'exer-2' ); ?></button>
 			<?php
 			wp_nav_menu(
 				array(
