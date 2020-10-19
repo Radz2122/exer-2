@@ -27,6 +27,7 @@
 
 	<header id="masthead" class="site-header">
 	<div>Header du site</div>
+	<h2 style="background-color:powderblue;">Voici une modification pour l'exercise 3</h2>
 		<div class="site-branding">
 			<?php
 			the_custom_logo();
