@@ -393,6 +393,12 @@ textarea {
   line-height: 1.5;
 }
 
+p {
+  background: linear-gradient(to right, orange, yellow, green, cyan, blue, violet);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 h1,
 h2,
 h3,
@@ -400,6 +406,9 @@ h4,
 h5,
 h6 {
   clear: both;
+  background: linear-gradient(to right, orange, yellow, green, cyan, blue, violet);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 p {
@@ -519,10 +528,16 @@ table {
 --------------------------------------------- */
 a {
   color: #4169e1;
+  background: linear-gradient(to right, orange, yellow, green, cyan, blue, violet);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 a:visited {
   color: #800080;
+  background: linear-gradient(to right, orange, yellow, green, cyan, blue, violet);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 a:hover, a:focus, a:active {
@@ -535,6 +550,9 @@ a:focus {
 
 a:hover, a:active {
   outline: 0;
+  background: linear-gradient(to right, orange, yellow, green, cyan, blue, violet);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 /* Forms
