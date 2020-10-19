@@ -21,6 +21,7 @@ if ( post_password_required() ) {
 ?>
 
 <div id="comments" class="comments-area">
+<div>Ajout d'une div dans la seciton commentaires</div>
 
 	<?php
 	// You can start editing here -- including this comment!
