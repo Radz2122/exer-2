@@ -24,6 +24,7 @@
 				/* translators: 1: Theme name, 2: Theme author. */
 				printf( esc_html__( 'Theme: %1$s by %2$s.', 'exer-2' ), 'exer-2', '<a href="http://underscores.me/">Underscores.me</a>' );
 				?>
+			<div>Changement du footer pour exercice 3</div>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
